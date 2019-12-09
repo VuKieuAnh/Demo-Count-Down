@@ -1,0 +1,8 @@
+<p>count-down!</p>
+
+{{seconds}}
+<button value="Start" (click)="start()" *ngIf="!isStart" >Start</button>
+<button (click)="stop()" *ngIf="isStart">Stop</button>
+<button (click)="reset()">Reset</button>
+
+{{message}}
