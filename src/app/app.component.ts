@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'timer-google';
+
+  isFinish = '';
+
+  finishCoundown() {
+    this.isFinish = 'Ket thuc';
+  }
 }
